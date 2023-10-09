@@ -16,9 +16,9 @@ let sampleClass = {
     students: 
     [
         { name: "Maggie Techner" },
-        { name: "Mango Zebra"},
-        { name: "Colin Brock"},
-        { name: "Apple Dog"}
+        { name: "Mango Zebra" },
+        { name: "Colin Brock" },
+        { name: "Apple Dog" }
     ]
 };
 

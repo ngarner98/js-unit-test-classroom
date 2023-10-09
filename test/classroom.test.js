@@ -20,12 +20,12 @@ beforeAll(() => {
 });
 
 describe("createClassroom", () => {
-/* TODO 
-Test 1: test that the function returns an object
-Test 2: test that invalid outputs returns -1
-Test 3: test length of ta and student arrays
-Test 4: test that lc101 object values match inputs
-*/
+    /* TODO 
+    Test 1: test that the function returns an object
+    Test 2: test that invalid outputs returns -1
+    Test 3: test length of ta and student arrays
+    Test 4: test that lc101 object values match inputs
+    */
 });
 
 describe("getClassInfo", () => {

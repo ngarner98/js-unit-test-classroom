@@ -12,7 +12,7 @@ function registerTeacher(name, subject, likesBananaCat = true) {
 
 function ternaryTeacher(name, subject, likesBananaCat = true) {
     return !name || !subject ? -1 
-        : {name: name, subject: subject, likesBananaCat: likesBananaCat};
+        : { name: name, subject: subject, likesBananaCat: likesBananaCat };
 }
 
 function registerTA(name, isLcGrad) {
@@ -28,7 +28,7 @@ function registerTA(name, isLcGrad) {
 
 function ternaryTA(name, isLcGrad) {
     return !name || !isLcGrad ? -1
-        : {name: name, isLcGrad: isLcGrad};
+        : { name: name, isLcGrad: isLcGrad };
 }
 
 module.exports = {

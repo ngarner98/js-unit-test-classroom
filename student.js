@@ -10,7 +10,7 @@ function registerStudent(name) {
 
 function registerStudentButTernary(name) {
     return !name ? -1 
-        : { name: name, gpa: gpa };
+        : { name: name };
 }
 
 module.exports = registerStudent;
