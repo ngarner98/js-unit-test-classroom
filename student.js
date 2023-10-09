@@ -1,16 +1,15 @@
-function registerStudent(name, gpa) {
-    if (!name || !gpa || isNaN(gpa)) {
+function registerStudent(name) {
+    if (!name) {
         return -1;
     } else {
         return {
-            name: name,
-            gpa: gpa
+            name: name
         };
     }
 }
 
-function registerStudentButTernary(name, gpa) {
-    return !name || !gpa || isNaN(gpa) ? -1
+function registerStudentButTernary(name) {
+    return !name ? -1 
         : { name: name, gpa: gpa };
 }
 

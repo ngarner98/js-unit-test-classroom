@@ -3,7 +3,7 @@ const registerStudent = require('../student.js');
 describe("registerStudent", () => {
 
     test("should return an object with valid arguments", () => {
-        let testStudent = registerStudent("Gerard", 3.14);
+        let testStudent = registerStudent("Gerard");
         expect(testStudent).toBeInstanceOf(Object);
     });
 
@@ -11,9 +11,9 @@ describe("registerStudent", () => {
         expect(registerStudent()).toBe(-1);
     });
 
-    test("should return object matching expectations", () => {
-        let testStudent = registerStudent("Gerard", 3.14);
-        let expected = {name: "Gerard", gpa: 3.14};
+    test("should return an object matching expectations", () => {
+        let testStudent = registerStudent("Gerard");
+        let expected = {name: "Gerard"};
         expect(testStudent).toEqual(expected);
     });
     
