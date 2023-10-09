@@ -1,4 +1,4 @@
-const registerStudent = require('../student');
+const registerStudent = require('../student.js');
 
 describe("registerStudent", () => {
 
