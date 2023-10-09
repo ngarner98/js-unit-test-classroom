@@ -1,0 +1,1 @@
+Sample code to be used when lecturing on LaunchCode's [JavaScript Unit Testing]{https://education.launchcode.org/intro-to-web-dev-curriculum/unit-testing/index.html} chapter.

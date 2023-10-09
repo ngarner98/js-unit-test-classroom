@@ -1,0 +1,14 @@
+{
+  "name": "lecture-10-9",
+  "version": "1.0.0",
+  "description": "unit testing lecture",
+  "main": "class.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gerard Darris",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
