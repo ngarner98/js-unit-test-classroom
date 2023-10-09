@@ -7,12 +7,14 @@ describe("registerStudent", () => {
     });
 
     test("should return an object with valid arguments", () => {
-        expect(registerStudent("Gerard", 3.14)).toBeInstanceOf(Object);
+        let testStudent = registerStudent("Gerard", 3.14);
+        expect(testStudent).toBeInstanceOf(Object);
     });
 
     test("should return object matching expectations", () => {
+        let testStudent = registerStudent("Gerard", 3.14);
         let expected = {name: "Gerard", gpa: 3.14};
-        expect(registerStudent("Gerard", 3.14)).toEqual(expected);
+        expect(testStudent).toEqual(expected);
     });
     
 });
