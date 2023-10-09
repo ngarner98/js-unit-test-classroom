@@ -15,11 +15,17 @@ let sampleClass = {
     ],
     students: 
     [
-        { name: "Maggie" },
+        { name: "Maggie Techner" },
         { name: "Mango Zebra"},
-        { name: "Colin"},
+        { name: "Colin Brock"},
         { name: "Apple Dog"}
     ]
 };
 
-let sampleOutput = `Welcome to ${sampleClass.name}. Lecture is led by ${sampleClass.instructor.name}. We have ${sampleClass.tas.length} TAs and ${sampleClass.students.length} students.`
+// Sample output string
+let sampleOutput = `Welcome to ${sampleClass.name}. Lecture is led by ${sampleClass.instructor.name}. We have ${sampleClass.tas.length} ${sampleClass.tas.length < 2 ? "TA" : "TAs"} and ${sampleClass.students.length} ${sampleClass.students.length < 2 ? "student" : "students" }.`;
+
+/*  
+Welcome to Part Time Web Dev. Lecture is led by 
+Gerard Darris. We have 3 TAs and 4 students.
+*/
