@@ -2,13 +2,13 @@ const staff = require("../staff.js");
 
 describe("registerTA", function() {
 
-    test("should return -1 from invalid arguments", function() {
-        expect(staff.registerTA()).toBe(-1);
-    });
-
     test("should return an object with valid arguments", function() {
         let testTA = staff.registerTA("Kyle", true);
         expect(testTA).toBeInstanceOf(Object);
+    });
+
+    test("should return -1 with invalid arguments", function() {
+        expect(staff.registerTA()).toBe(-1);
     });
 
     test("should return object matching expectations", function() {
@@ -20,11 +20,11 @@ describe("registerTA", function() {
 
 describe("registerTeacher", () => {
     
-    test("should return -1 from invalid arguments", function() {
+    test("should return an object with valid arguments", function() {
         // TODO Complete test 1
     });
 
-    test("should return an object with valid arguments", function() {
+    test("should return -1 with invalid arguments", function() {
         // TODO Complete test 2
     });
 
